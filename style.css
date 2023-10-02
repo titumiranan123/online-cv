@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 754px;
+    height: 1122px;
+    position: relative;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* first section  */
+.first_section {
+    margin-top: 40px;
+    padding: 10px 40px;
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.image {
+    width: 30%;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.name {
+    height: 120px;
+    width: 100%;
+    background: #CAE8E8;
+    padding: 30px;
+    position: relative;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.side_line {
+    background-color: #00939B;
+    width: 2px;
+    position: absolute;
+
+}
+
+.side_line_1 {
+    height: 60px;
+    left: 20px;
+    top: 28px;
+}
+
+/* second section  */
+.second_section {
+    padding: 10px 50px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.about_me {
+    width: 70%;
+    padding-left: 10px;
+}
+
+.contact {
+    width: 30%;
+}
+
+.side_line_2 {
+    height: 120px;
+    top: -20px;
+    left: -10px;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+.side_line_3 {
+    height: 120px;
+    top: 0px;
+    left: 0px;
+}
+
+/* hr-line */
+.hr_line {
+    background-color: #00939B;
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+}
+
+/* third section  */
+.detail_container {
+    padding: 10px 50px;
+}
+
+.text-sm {
+    font-size: 10px;
+    color: #00939B;
+}
+
+
+.skills ul li {
+    list-style: none;
+    margin-top: 2px;
+
+}
+
+.progressbar {
+    background-color: #a9e0f1e0;
+    border-radius: 2%;
+    width: 200px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+
+    background-color: #00939B;
+    /* z-index: 12; */
+    position: relative;
+    top: -10px;
+}
+
+
+.language {
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+/* details container  */
+.detail_container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.tool {
+    display: flex;
+    gap: 5px;
+
+
+}
+
+.project_link {
+    display: flex;
+    gap: 5px;
+
+}
+
+.project_link a {
+    text-decoration: none;
+    color: black;
+}
+
+.feature ul li {
+    color: black;
+    text-decoration: none
+}
+
+.tool p {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* box style  */
+.box {
+    background-color: #00939B;
+}
+
+.top {
+    height: 30px;
+    width: 33%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.bottom {
+    height: 30px;
+    width: 67%;
+    position: absolute;
+    bottom: 0;
+}
+
+.right {
+    position: absolute;
+    height: 50%;
+    width: 30px;
+    right: 0;
+    top: 0;
+}
